@@ -1,0 +1,102 @@
+/* Kontainer Halaman Login/Register */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #000000; /* Warna latar belakang hitam */
+    color: #ffffff; /* Warna teks */
+}
+
+/* Judul Halaman */
+.login-container h2 {
+    font-size: 32px;
+    color: #ffa31a; /* Warna judul */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Formulir */
+.login-form {
+    background-color: #000000; /* Latar belakang formulir */
+    padding: 20px;
+    border: 2px solid #ffa31a; /* Outline oranye di sekitar form */
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(255, 163, 26, 0.4); /* Efek shadow */
+}
+
+/* Label */
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #ffffff; /* Warna label */
+}
+
+/* Input Fields */
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none; /* Menghapus kotak outline */
+    border-bottom: 2px solid #ffa31a; /* Garis bawah oranye */
+    background-color: transparent; /* Transparan agar sesuai dengan latar */
+    color: #ffffff; /* Warna teks */
+    font-size: 16px;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-bottom-color: #e69500; /* Warna garis bawah saat fokus */
+}
+
+/* Checkbox */
+.form-check-input {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.form-check-label {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+/* Tombol Login/Register */
+.login-form button {
+    width: 100%;
+    background-color: #ffa31a; /* Warna tombol */
+    color: #292929; /* Warna teks tombol */
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #e69500; /* Warna tombol saat hover */
+}
+
+/* Footer */
+.login-container p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #808080; /* Warna teks footer */
+    text-align: center;
+}
+
+.login-container p a {
+    color: #ffa31a; /* Warna tautan */
+    text-decoration: none;
+}
+
+.login-container p a:hover {
+    text-decoration: underline;
+}

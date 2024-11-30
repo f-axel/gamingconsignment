@@ -1,0 +1,95 @@
+.page-user-products {
+    background-color: #000000;
+    color: #ffa31a;
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+.user-products-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-products-title {
+    font-size: 2rem;
+    color: #ffa31a;
+}
+
+.btn-add-product {
+    background-color: #ffa31a;
+    color: #292929;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-add-product:hover {
+    background-color: #808080;
+    color: #1b1b1b;
+}
+
+.flash-message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.flash-success {
+    background-color: #292929;
+    color: #ffa31a;
+}
+
+.flash-error {
+    background-color: #292929;
+    color: #ffa31a;
+}
+
+.products-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.products-table th, .products-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #808080;
+}
+
+.products-table th {
+    background-color: #292929;
+    color: #ffa31a;
+}
+
+.products-table tr:nth-child(even) {
+    background-color: #292929;
+}
+
+.products-table .product-image {
+    border-radius: 5px;
+}
+
+.action-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-edit {
+    color: #ffa31a;
+}
+
+.btn-delete {
+    color: #808080;
+}
+
+.btn-delete:hover {
+    color: #ffa31a;
+}
+
+.no-products {
+    text-align: center;
+    color: #808080;
+}

@@ -1,0 +1,124 @@
+/* Kontainer utama */
+.order-detail-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1b1b1b; /* Latar kontainer */
+    color: #ffffff; /* Warna teks */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Judul halaman */
+.order-detail-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffa31a; /* Warna judul */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Informasi pesanan */
+.order-info {
+    margin-bottom: 20px;
+    background-color: #292929; /* Latar informasi */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.order-info div {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #808080; /* Warna teks */
+}
+
+.order-info span {
+    font-weight: bold;
+    color: #ffa31a; /* Warna status atau elemen penting */
+}
+
+/* Status order */
+.order-info .status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.status.waiting {
+    background-color: #ffa31a; /* Warna status Waiting */
+    color: #292929;
+}
+
+.status.completed {
+    background-color: #808080; /* Warna status Completed */
+    color: #ffffff;
+}
+
+.status.cancelled {
+    background-color: #292929; /* Warna status Cancelled */
+    color: #ffa31a;
+}
+
+/* Tabel produk */
+.order-products {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.order-products thead {
+    background-color: #ffa31a; /* Latar tabel header */
+    color: #292929; /* Warna teks header */
+}
+
+.order-products th, .order-products td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #808080;
+}
+
+.order-products tbody tr {
+    background-color: #1b1b1b; /* Latar baris */
+}
+
+.order-products tbody tr:nth-child(even) {
+    background-color: #292929; /* Latar baris genap */
+}
+
+.order-products td {
+    color: #ffffff; /* Warna teks sel */
+}
+
+/* Total harga */
+.order-total {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffa31a; /* Warna total harga */
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* Tombol navigasi */
+.order-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.order-buttons .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ffa31a; /* Latar tombol */
+    color: #292929; /* Warna teks tombol */
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.order-buttons .btn:hover {
+    background-color: #e69500; /* Warna hover tombol */
+}

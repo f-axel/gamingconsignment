@@ -1,0 +1,90 @@
+/* Kontainer utama */
+.orders-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1b1b1b; /* Latar kontainer */
+    color: #ffffff; /* Warna teks */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Judul halaman */
+.orders-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffa31a; /* Warna judul */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tabel pesanan */
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.orders-table thead {
+    background-color: #ffa31a; /* Latar tabel header */
+    color: #292929; /* Warna teks header */
+}
+
+.orders-table th, .orders-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #808080;
+}
+
+.orders-table tbody tr {
+    background-color: #1b1b1b; /* Latar baris */
+}
+
+.orders-table tbody tr:nth-child(even) {
+    background-color: #292929; /* Latar baris genap */
+}
+
+.orders-table td {
+    color: #ffffff; /* Warna teks sel */
+}
+
+/* Tautan nomor order */
+.orders-table td a {
+    color: #ffa31a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.orders-table td a:hover {
+    color: #e69500; /* Warna hover tautan */
+}
+
+/* Status order */
+.orders-table .status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.status.waiting {
+    background-color: #ffa31a; /* Warna status Waiting */
+    color: #292929;
+}
+
+.status.completed {
+    background-color: #808080; /* Warna status Completed */
+    color: #ffffff;
+}
+
+.status.cancelled {
+    background-color: #292929; /* Warna status Cancelled */
+    color: #ffa31a;
+}
+
+/* Pesan jika tidak ada pesanan */
+.orders-container p {
+    font-size: 16px;
+    color: #808080; /* Warna teks pesan */
+    text-align: center;
+    margin-top: 20px;
+}

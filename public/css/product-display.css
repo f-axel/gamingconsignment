@@ -1,0 +1,197 @@
+/* Menyusun konten produk */
+.product-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Kontainer untuk gambar dan informasi produk */
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    border: 2px solid #ffa31a; /* Outline kotak produk */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Gaya untuk gambar produk */
+.product-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.product-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Gaya untuk informasi produk */
+.product-info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Mengurangi jarak antara title dan harga */
+    max-width: 600px;
+}
+
+/* Nama produk dan harga */
+.product-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffa31a;
+    margin-bottom: -30px; /* Mengurangi jarak bawah title */
+}
+
+.product-price {
+    font-size: 24px;
+    color: #ffa31a;
+}
+
+/* Tombol add to cart */
+.add-to-cart-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+}
+
+.qty-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #292929;
+    border-radius: 4px;
+}
+
+.qty-btn {
+    background-color: #ffa31a;
+    color: #292929;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.qty-btn:hover {
+    background-color: #e69315;
+}
+
+.qty-input {
+    width: 50px; /* Ukuran input */
+    padding: 10px;
+    background-color: #292929;
+    color: #ffa31a;
+    border: 1px solid #292929;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+}
+
+.qty-btn:focus {
+    outline: none;
+}
+
+.qty-input:focus {
+    outline: none;
+    border-color: #ffa31a;
+}
+
+.add-to-cart-btn {
+    background-color: #ffa31a;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #ffa31a;
+}
+
+/* Menyusun informasi produk seperti penjual, status, deskripsi */
+.product-extra-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Mengurangi jarak antara penjual, status, dan deskripsi */
+}
+
+.product-seller, .product-status, .product-desc {
+    font-size: 16px;
+    color: #808080;
+}
+
+/* Deskripsi Produk */
+.product-desc {
+    font-size: 14px;
+    color: #ffa31a;
+}
+
+/* Gaya untuk komentar */
+.comments-container {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1200px;
+    border: 2px solid #ffa31a; /* Outline kotak komentar */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.comments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comment-item {
+    background-color: #292929;
+    padding: 10px;
+    border-radius: 8px;
+    color: #ffa31a;
+}
+
+.comment-input {
+    width: 100%;
+    padding: 10px;
+    background-color: #292929;
+    color: #ffa31a;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.comment-btn {
+    background-color: #ff8500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.comment-btn:hover {
+    background-color: #ffa31a;
+}
+
+/* Link kembali ke home */
+.back-home-link {
+    color: #ffa31a;
+    font-size: 16px;
+    text-decoration: none;
+}

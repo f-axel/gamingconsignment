@@ -1,0 +1,223 @@
+/* Mengatur kontainer untuk elemen-elemen filter dan produk */
+.container {
+    display: flex;
+    flex-direction: column; /* Ganti dengan kolom agar elemen filter di atas produk */
+    gap: 20px; /* Jarak antara elemen */
+    margin-top: 20px;
+}
+
+/* Gaya untuk filter dan opsi sort */
+.filter-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;  
+}
+
+/* Gaya untuk label */
+.filter-options label {
+    color: #ffa31a; /* Warna teks oranye */
+}
+
+
+.filter-options input,
+.filter-options select {
+    padding: 8px;
+    border-radius: 4px;
+    border: none; /* Hapus border default */
+    outline: none; /* Hapus outline default */
+    background-color: #292929; /* Background hitam */
+    color: #ffa31a; /* Teks oranye */
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Efek transisi */
+    width: 100%;
+}
+
+.filter-options input::placeholder {
+    color: #ffa31a; /* Placeholder berwarna oranye */
+}
+
+.filter-options input {
+    max-width: 250px; /* Menentukan lebar maksimal untuk input pencarian */
+}
+.filter-options select {
+    appearance: none; /* Hilangkan arrow bawaan browser */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"%3E%3Cpath fill="%23ffa31a" d="M2 0L0 2h4zm0 5L0 3h4z"/%3E%3C/svg%3E'); /* Custom arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px 10px;
+    padding-right: 25px; /* Ruang untuk arrow */
+}
+
+/* Gaya untuk kotak pembungkus filter */
+.filter-bar {
+    border: 2px solid #ff8500; /* Outline oranye */
+    background-color: #000000; /* Background abu-abu */
+    border-radius: 8px; /* Sudut melengkung */
+    padding: 15px; /* Jarak dalam kotak */
+}
+
+/* Gaya untuk section pencarian */
+.search-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.search-section label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffa31a;
+}
+
+
+
+/* Mengatur tampilan daftar produk */
+.product-list {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Grid responsif */
+    gap: 20px; /* Jarak antar produk */
+    justify-content: space-between;
+}
+
+/* Gaya untuk setiap item produk */
+.product-item {
+    flex: 1 1 calc(33.33% - 20px); /* 3 produk per baris */
+    box-sizing: border-box;
+    border: 1px solid #292929; /* Warna border dari palet warna */
+    padding: 10px;
+    border-radius: 8px; /* Sudut melengkung */
+    background-color: #1b1b1b; /* Warna latar belakang produk */
+    color: #ffa31a; /* Warna teks utama */
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Agar elemen dalam produk rapi */
+    align-items: center;
+}
+
+.filter-options input:focus,
+.filter-options select:focus {
+    background-color: #292929; /* Ubah background saat fokus */
+    box-shadow: 0 0 5px #ffa31a; /* Tambahkan glow oranye */
+}
+
+/* Gaya gambar produk */
+.product-item img {
+    width: 150px; /* Menentukan lebar gambar agar konsisten */
+    height: 150px; /* Menentukan tinggi gambar agar konsisten */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    border-radius: 8px;
+}
+
+/* Judul produk */
+.product-item h3 {
+    font-size: 1.2rem;
+    color: #ffa31a; /* Warna judul produk */
+    margin-top: 10px;
+}
+
+/* Deskripsi produk */
+.product-item p {
+    color: #808080; /* Warna deskripsi */
+}
+
+/* Tombol add to cart */
+.product-item button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #ffa31a;
+    color: #292929;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-item button:hover {
+    background-color: #e69500; /* Efek hover pada tombol */
+}
+
+
+/* Tambahkan ini ke home.css */
+.hero-text {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFA31A; /* Warna teks */
+    overflow: hidden; /* Untuk menjaga efek animasi tetap rapi */
+}
+
+#animatedText {
+    display: inline-block;
+    white-space: nowrap;
+    border-right: 3px solid #FFA31A; /* Efek kursor */
+    animation: typing 2s steps(30, end), blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: transparent;
+    }
+    to {
+        border-color: #FFA31A;
+    }
+}
+
+
+
+
+/* Tambahkan ini ke home.css */
+
+/* Tombol Scroll ke Atas */
+#scrollToTopBtn {
+    display: none; /* Sembunyikan secara default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100; /* Agar tombol berada di atas elemen lainnya */
+    background-color: #FFA31A; /* Warna latar belakang tombol */
+    color: #FFFFFF; /* Warna teks */
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Membuat tombol bulat */
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Tambahkan bayangan */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect */
+#scrollToTopBtn:hover {
+    background-color: #FF8A00; /* Warna saat hover */
+    transform: scale(1.1); /* Efek memperbesar */
+}
+
+.product-item-link {
+    text-decoration: none;
+    color: inherit;
+}
+.product-item {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    transition: box-shadow 0.3s ease;
+}
+.product-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

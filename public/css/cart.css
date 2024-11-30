@@ -1,0 +1,120 @@
+/* Container utama untuk keranjang belanja */
+.cart-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #1b1b1b; /* Latar belakang */
+    border-radius: 8px;
+    color: #ffffff; /* Warna teks */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Judul keranjang belanja */
+.cart-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffa31a;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Header tabel keranjang */
+.cart-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    font-weight: bold;
+    color: #ffa31a; /* Warna teks header */
+    border-bottom: 2px solid #292929; /* Garis pemisah */
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Setiap item di keranjang */
+.cart-item {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #292929; /* Garis bawah antar item */
+}
+
+.cart-item img {
+    border-radius: 4px;
+}
+
+/* Detil produk */
+.cart-item-details {
+    color: #ffffff;
+}
+
+.cart-item-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffa31a; /* Nama produk */
+    margin-bottom: 5px;
+}
+
+.cart-item-price,
+.cart-item-subtotal {
+    text-align: center;
+    color: #808080; /* Warna harga */
+}
+
+/* Input jumlah */
+.cart-item-quantity {
+    width: 60px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    background-color: #292929;
+    color: #ffffff;
+}
+
+/* Tombol aksi */
+.cart-item button {
+    background-color: #ffa31a;
+    color: #292929;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cart-item button:hover {
+    background-color: #e69500; /* Warna hover tombol */
+}
+
+/* Total harga */
+.cart-total {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffa31a;
+    margin: 20px 0;
+    border-top: 2px solid #292929;
+    padding-top: 10px;
+}
+
+/* Tombol navigasi */
+.cart-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-buttons a button {
+    background-color: #292929;
+    color: #ffa31a;
+    border: 1px solid #ffa31a;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cart-buttons a button:hover {
+    background-color: #ffa31a;
+    color: #292929; /* Warna hover tombol */
+}

@@ -1,0 +1,104 @@
+/* Kontainer utama */
+.order-confirm-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1b1b1b; /* Latar belakang */
+    color: #ffffff; /* Warna teks */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Judul halaman */
+.order-confirm-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffa31a; /* Warna judul */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Informasi order */
+.order-info {
+    margin-bottom: 20px;
+    background-color: #292929; /* Latar informasi order */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.order-info div {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #808080; /* Warna teks informasi */
+}
+
+.order-info span {
+    font-weight: bold;
+    color: #ffa31a; /* Warna teks yang disorot */
+}
+
+/* Status order */
+.order-info .status {
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.status.waiting {
+    background-color: #ffa31a; /* Warna status */
+    color: #292929; /* Warna teks status */
+}
+
+/* Form konfirmasi pembayaran */
+.confirm-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.confirm-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffa31a; /* Warna label */
+    margin-bottom: 5px;
+}
+
+.confirm-form input,
+.confirm-form textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #292929; /* Latar input */
+    color: #ffffff; /* Warna teks input */
+    border: 1px solid #808080; /* Border */
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.confirm-form textarea {
+    resize: none;
+    height: 80px;
+}
+
+.confirm-form input[type="file"] {
+    padding: 5px;
+    background-color: #1b1b1b; /* Latar input file */
+    border: none;
+    color: #808080; /* Warna teks file */
+    font-size: 14px;
+}
+
+.confirm-form button.submit-btn {
+    padding: 12px;
+    background-color: #ffa31a; /* Warna tombol */
+    color: #292929; /* Warna teks tombol */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.confirm-form button.submit-btn:hover {
+    background-color: #e69500; /* Warna tombol saat hover */
+}

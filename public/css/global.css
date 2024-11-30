@@ -1,0 +1,48 @@
+/* global.css */
+
+/* Background warna hitam untuk seluruh halaman */
+body {
+    background-color: #000000;
+    color: #ffa31a; /* Warna teks utama (bisa disesuaikan) */
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+/* Pastikan semua teks tidak menggunakan warna hitam */
+h1, h2, h3, h4, h5, h6, p, span, a, li, label, input, select, textarea, button {
+    color: #ffa31a; /* Warna teks, sesuai dengan palet warna yang Anda pilih */
+}
+
+/* Warna teks default pada link */
+a {
+    color: #ffa31a;
+    text-decoration: none;
+}
+
+/* Warna link saat di-hover */
+a:hover {
+    color: #e69500;
+}
+
+/* Tombol dengan latar belakang dan teks yang sesuai */
+button {
+    background-color: #ffa31a;
+    color: #000000; /* Warna teks tombol */
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect untuk tombol */
+button:hover {
+    background-color: #e69500;
+}
+
+/* Input dan form elemen */
+input, select, textarea {
+    background-color: #1b1b1b;
+    color: #ffa31a;
+    border: 1px solid #808080;
+    padding: 8px;
+    border-radius: 4px;
+}

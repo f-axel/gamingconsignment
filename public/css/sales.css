@@ -1,0 +1,63 @@
+.page-sales {
+    background-color: #000000;
+    color: #ffa31a;
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+.sales-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sales-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffa31a;
+}
+
+.sales-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.sales-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #292929;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.sales-table th,
+.sales-table td {
+    padding: 10px 15px;
+    border: 1px solid #808080;
+}
+
+.sales-table th {
+    background-color: #ffa31a;
+    color: #292929;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sales-table tr:nth-child(even) {
+    background-color: #1b1b1b;
+}
+
+.sales-table tr:hover {
+    background-color: #ffa31a;
+    color: #292929;
+}
+
+.no-sales-message {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #808080;
+}

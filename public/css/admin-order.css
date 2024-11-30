@@ -1,0 +1,106 @@
+/* Container Styling */
+.container {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+.header h2 {
+    color: #ffa31a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    outline: none;
+    font-size: 14px;
+}
+
+.search-bar input::placeholder {
+    color: #808080;
+}
+
+/* Order Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+thead {
+    background-color: #ffa31a;
+}
+
+thead th {
+    color: #000000;
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+}
+
+tbody td {
+    background-color: #1b1b1b;
+    border: 1px solid #808080;
+    padding: 10px;
+    font-size: 14px;
+}
+
+tbody tr:hover {
+    background-color: #808080;
+    color: #ffffff;
+}
+
+tbody td a {
+    color: #ffa31a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+tbody td a:hover {
+    text-decoration: underline;
+}
+
+/* Status Styling */
+.status-waiting {
+    color: #ffa31a;
+    font-weight: bold;
+}
+
+.status-paid {
+    color: #00ff00; /* Green for paid */
+    font-weight: bold;
+}
+
+.status-delivered {
+    color: #0088ff; /* Blue for delivered */
+    font-weight: bold;
+}
+
+.status-cancelled {
+    color: #ff0000; /* Red for cancelled */
+    font-weight: bold;
+}
+
+/* Empty State */
+tbody td[colspan] {
+    text-align: center;
+    color: #808080;
+    font-style: italic;
+}

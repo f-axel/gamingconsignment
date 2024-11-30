@@ -1,0 +1,74 @@
+/* Kontainer utama */
+body {
+    font-family: "Plus Jakarta Sans", serif;
+    background-color: #292929; /* Latar belakang halaman */
+    color: #ffffff; /* Warna teks */
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #ffa31a; /* Warna judul */
+    margin-top: 50px;
+}
+
+/* Form Kontainer */
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #1b1b1b; /* Latar form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #ffffff; /* Warna label */
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #808080;
+    background-color: #292929;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+form input:focus {
+    border-color: #ffa31a; /* Border saat input difokuskan */
+    outline: none;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffa31a;
+    border: none;
+    color: #292929;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e69500; /* Warna button saat hover */
+}
+
+/* Tautan navbar */
+.navbar a {
+    color: #ffa31a; /* Warna teks navbar */
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #ffffff; /* Warna navbar saat hover */
+}

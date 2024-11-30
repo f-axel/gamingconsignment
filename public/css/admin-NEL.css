@@ -1,0 +1,105 @@
+/* Admin Panel Container */
+.admin-panel-container {
+    background-color: #1b1b1b;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading Styles */
+.admin-panel-container h1, 
+.admin-panel-container h2 {
+    color: #ffa31a;
+    text-align: center;
+}
+
+/* Menu Buttons */
+.admin-menu .menu-btn {
+    background-color: #808080;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.admin-menu .menu-btn:hover {
+    background-color: #ffa31a;
+    color: #000000;
+}
+
+/* Admin Section */
+.admin-section {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Buttons */
+.add-category-btn, 
+.add-user-btn, 
+.add-product-btn, 
+.edit-btn, 
+.delete-btn {
+    background-color: #ffa31a;
+    color: #000000;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.add-category-btn:hover, 
+.add-user-btn:hover, 
+.add-product-btn:hover, 
+.edit-btn:hover, 
+.delete-btn:hover {
+    background-color: #808080;
+    color: #ffffff;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #808080;
+    text-align: left;
+    padding: 10px;
+}
+
+table th {
+    background-color: #ffa31a;
+    color: #000000;
+}
+
+table td {
+    background-color: #1b1b1b;
+    color: #ffffff;
+}
+
+/* Search Bar */
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    background-color: #1b1b1b;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.search-bar input::placeholder {
+    color: #808080;
+}

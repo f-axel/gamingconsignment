@@ -1,0 +1,97 @@
+/* General Styling */
+.container {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+h2 {
+    color: #ffa31a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #ffa31a;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group select,
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-group input::placeholder {
+    color: #808080;
+}
+
+/* File Input */
+.form-group input[type="file"] {
+    border: none;
+}
+
+.form-group img {
+    margin-top: 10px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    max-width: 100px;
+}
+
+/* Button Styling */
+.save-btn {
+    background-color: #ffa31a;
+    color: #000000;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.save-btn:hover {
+    background-color: #ffffff;
+    color: #ffa31a;
+    transition: 0.3s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .save-btn {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+}

@@ -1,0 +1,107 @@
+/* Kontainer utama checkout */
+.checkout-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1b1b1b; /* Latar belakang */
+    color: #ffffff; /* Warna teks utama */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Form checkout */
+.checkout-form {
+    flex: 1 1 50%;
+    padding: 20px;
+    background-color: #292929; /* Latar belakang form */
+    border-radius: 8px;
+}
+
+.checkout-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffa31a; /* Warna judul form */
+    margin-bottom: 20px;
+}
+
+.checkout-form label {
+    display: block;
+    font-size: 14px;
+    color: #ffa31a; /* Warna label */
+    margin-bottom: 5px;
+}
+
+.checkout-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #808080; /* Border abu-abu */
+    border-radius: 4px;
+    background-color: #1b1b1b; /* Latar belakang input */
+    color: #ffffff; /* Warna teks input */
+    font-size: 14px;
+}
+
+.checkout-form input::placeholder {
+    color: #808080; /* Warna placeholder */
+}
+
+.checkout-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffa31a; /* Latar tombol */
+    color: #292929; /* Warna teks tombol */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-form button:hover {
+    background-color: #e69500; /* Warna tombol saat hover */
+}
+
+/* Ringkasan belanja */
+.cart-summary {
+    flex: 1 1 40%;
+    padding: 20px;
+    background-color: #292929; /* Latar belakang ringkasan */
+    border-radius: 8px;
+}
+
+.cart-summary h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffa31a; /* Warna judul ringkasan */
+    margin-bottom: 15px;
+}
+
+.cart-header,
+.cart-item,
+.cart-item-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #808080; /* Garis pemisah */
+}
+
+.cart-header {
+    font-weight: bold;
+    color: #ffffff; /* Warna header */
+}
+
+.cart-item {
+    color: #808080; /* Warna teks item */
+}
+
+.cart-item-total {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffa31a; /* Warna total */
+    border-bottom: none; /* Hapus garis bawah pada total */
+}

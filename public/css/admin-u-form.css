@@ -1,0 +1,91 @@
+/* Container Styling */
+.container {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Styling */
+h2 {
+    text-align: center;
+    color: #ffa31a;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group label {
+    color: #ffa31a;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-group input::placeholder {
+    color: #808080;
+}
+
+/* Optional Note for Password */
+.form-group small {
+    color: #808080;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Save Button Styling */
+.save-btn {
+    background-color: #ffa31a;
+    color: #000000;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.save-btn:hover {
+    background-color: #ffffff;
+    color: #ffa31a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .save-btn {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+}
