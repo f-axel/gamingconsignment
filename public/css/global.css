@@ -42,7 +42,6 @@ button:hover {
 input, select, textarea {
     background-color: #ffffff;
     color: #23272a;
-    border: 1px solid #808080;
     padding: 8px;
     border-radius: 4px;
 }

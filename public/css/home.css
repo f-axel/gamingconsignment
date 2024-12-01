@@ -28,7 +28,7 @@
     border-radius: 4px;
     border: none; /* Hapus border default */
     outline: none; /* Hapus outline default */
-    background-color: #b6b6b6; /* Background hitam */
+    background-color: #fbfbfb; /* Background hitam */
     color: #23272a; /* Teks oranye */
     font-size: 14px;
     font-weight: bold;
@@ -44,8 +44,7 @@
     max-width: 250px; /* Menentukan lebar maksimal untuk input pencarian */
 }
 .filter-options select {
-    appearance: none; /* Hilangkan arrow bawaan browser */
-    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"%3E%3Cpath fill="%23ffa31a" d="M2 0L0 2h4zm0 5L0 3h4z"/%3E%3C/svg%3E'); /* Custom arrow */
+    appearance: none; 
     background-repeat: no-repeat;
     background-position: right 10px center;
     background-size: 10px 10px;
@@ -99,7 +98,7 @@
 
 .filter-options input:focus,
 .filter-options select:focus {
-    background-color: #99aab5; /* Ubah background saat fokus */
+    background-color: #e6ecef; /* Ubah background saat fokus */
     box-shadow: 0 0 5px #23272a; /* Tambahkan glow oranye */
 }
 

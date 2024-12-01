@@ -77,6 +77,7 @@
 
 .qty-btn {
     background-color: #d9d9d9; /* Tombol abu-abu terang */
+    appearance: none; 
     color: #333333; /* Teks gelap */
     border: none;
     padding: 10px;
@@ -94,6 +95,7 @@
     width: 50px; /* Ukuran input */
     padding: 10px;
     background-color: #f2f2f2;
+    appearance: none; 
     color: #333333; /* Teks gelap */
     border: 1px solid #d9d9d9;
     border-radius: 4px;
