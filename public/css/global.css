@@ -2,30 +2,30 @@
 
 /* Background warna hitam untuk seluruh halaman */
 body {
-    background-color: #000000;
-    color: #ffa31a; /* Warna teks utama (bisa disesuaikan) */
+    background-color: #ffffff;
+    color: #23272a; /* Warna teks utama (bisa disesuaikan) */
     font-family: "Plus Jakarta Sans", serif;
 }
 
 /* Pastikan semua teks tidak menggunakan warna hitam */
 h1, h2, h3, h4, h5, h6, p, span, a, li, label, input, select, textarea, button {
-    color: #ffa31a; /* Warna teks, sesuai dengan palet warna yang Anda pilih */
+    color: #23272a; /* Warna teks, sesuai dengan palet warna yang Anda pilih */
 }
 
 /* Warna teks default pada link */
 a {
-    color: #ffa31a;
+    color: #23272a;
     text-decoration: none;
 }
 
 /* Warna link saat di-hover */
 a:hover {
-    color: #e69500;
+    color: #1b1b1b;
 }
 
 /* Tombol dengan latar belakang dan teks yang sesuai */
 button {
-    background-color: #ffa31a;
+    background-color: #23272a;
     color: #000000; /* Warna teks tombol */
     border: none;
     padding: 10px;
@@ -35,13 +35,13 @@ button {
 
 /* Hover effect untuk tombol */
 button:hover {
-    background-color: #e69500;
+    background-color: #1b1b1b;
 }
 
 /* Input dan form elemen */
 input, select, textarea {
-    background-color: #1b1b1b;
-    color: #ffa31a;
+    background-color: #ffffff;
+    color: #23272a;
     border: 1px solid #808080;
     padding: 8px;
     border-radius: 4px;

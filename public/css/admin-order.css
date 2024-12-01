@@ -1,17 +1,17 @@
 /* Container Styling */
 .container {
-    background-color: #1b1b1b;
-    color: #ffffff;
+    background-color: #ffffff; /* Putih bersih untuk latar belakang */
+    color: #1b1b1b; /* Teks gelap untuk kontras */
     padding: 20px;
     border-radius: 10px;
     max-width: 800px;
     margin: 30px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow lembut */
 }
 
 /* Header */
 .header h2 {
-    color: #ffa31a;
+    color: #1b1b1b; /* Teks gelap untuk heading */
     text-align: center;
     margin-bottom: 20px;
 }
@@ -25,16 +25,16 @@
 .search-bar input {
     width: 80%;
     padding: 10px;
-    border: 1px solid #808080;
+    border: 1px solid #e0e0e0; /* Abu terang */
     border-radius: 5px;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #f9f9f9; /* Latar abu terang */
+    color: #1b1b1b; /* Teks gelap */
     outline: none;
     font-size: 14px;
 }
 
 .search-bar input::placeholder {
-    color: #808080;
+    color: #b0b0b0; /* Placeholder abu muda */
 }
 
 /* Order Table */
@@ -45,62 +45,63 @@ table {
 }
 
 thead {
-    background-color: #ffa31a;
+    background-color: #f0f0f0; /* Abu terang */
 }
 
 thead th {
-    color: #000000;
+    color: #1b1b1b; /* Teks gelap */
     text-align: left;
     padding: 10px;
     font-size: 14px;
 }
 
 tbody td {
-    background-color: #1b1b1b;
-    border: 1px solid #808080;
+    background-color: #ffffff; /* Latar putih */
+    border: 1px solid #e0e0e0; /* Border abu terang */
     padding: 10px;
     font-size: 14px;
 }
 
 tbody tr:hover {
-    background-color: #808080;
-    color: #ffffff;
+    background-color: #f0f0f0; /* Hover abu terang */
+    color: #1b1b1b; /* Teks tetap gelap */
 }
 
 tbody td a {
-    color: #ffa31a;
+    color: #4f4f4f; /* Link abu gelap */
     text-decoration: none;
     font-weight: bold;
 }
 
 tbody td a:hover {
     text-decoration: underline;
+    color: #1b1b1b; /* Hover lebih gelap */
 }
 
 /* Status Styling */
 .status-waiting {
-    color: #ffa31a;
+    color: #e0a800; /* Warna emas */
     font-weight: bold;
 }
 
 .status-paid {
-    color: #00ff00; /* Green for paid */
+    color: #008000; /* Hijau */
     font-weight: bold;
 }
 
 .status-delivered {
-    color: #0088ff; /* Blue for delivered */
+    color: #0056b3; /* Biru tua */
     font-weight: bold;
 }
 
 .status-cancelled {
-    color: #ff0000; /* Red for cancelled */
+    color: #cc0000; /* Merah tua */
     font-weight: bold;
 }
 
 /* Empty State */
 tbody td[colspan] {
     text-align: center;
-    color: #808080;
+    color: #b0b0b0; /* Abu muda */
     font-style: italic;
 }

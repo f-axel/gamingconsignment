@@ -1,18 +1,18 @@
 /* Container Styling */
 .container {
-    background-color: #1b1b1b;
-    color: #ffffff;
+    background-color: #ffffff; /* Latar belakang putih */
+    color: #1b1b1b; /* Teks gelap */
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
     margin: 30px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow lembut */
 }
 
 /* Header Styling */
 h2 {
     text-align: center;
-    color: #ffa31a;
+    color: #1b1b1b; /* Teks gelap */
     margin-bottom: 20px;
 }
 
@@ -20,35 +20,37 @@ h2 {
 form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 15px; /* Jarak antar elemen form */
 }
 
+/* Form Group Label */
 .form-group label {
-    color: #ffa31a;
+    color: #1b1b1b; /* Teks gelap untuk label */
     font-weight: bold;
     margin-bottom: 5px;
     display: inline-block;
 }
 
+/* Input & Select Styling */
 .form-group input,
 .form-group select {
     width: 100%;
     padding: 10px;
-    border: 1px solid #808080;
+    border: 1px solid #cccccc; /* Border abu terang */
     border-radius: 5px;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #f9f9f9; /* Latar belakang abu terang */
+    color: #1b1b1b; /* Teks gelap */
     font-size: 14px;
     outline: none;
 }
 
 .form-group input::placeholder {
-    color: #808080;
+    color: #808080; /* Placeholder abu-abu */
 }
 
 /* Optional Note for Password */
 .form-group small {
-    color: #808080;
+    color: #808080; /* Teks abu-abu untuk catatan */
     font-size: 12px;
     display: block;
     margin-top: 5px;
@@ -56,10 +58,10 @@ form {
 
 /* Save Button Styling */
 .save-btn {
-    background-color: #ffa31a;
-    color: #000000;
+    background-color: #1b1b1b; /* Tombol gelap */
+    color: #ffffff; /* Teks putih */
     border: none;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
     text-transform: uppercase;
@@ -68,24 +70,24 @@ form {
 }
 
 .save-btn:hover {
-    background-color: #ffffff;
-    color: #ffa31a;
+    background-color: #808080; /* Hover abu gelap */
+    color: #ffffff; /* Teks tetap putih */
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
-        padding: 15px;
+        padding: 15px; /* Kurangi padding pada layar kecil */
     }
 
     .form-group input,
     .form-group select {
-        font-size: 12px;
-        padding: 8px;
+        font-size: 12px; /* Ukuran font lebih kecil */
+        padding: 8px; /* Padding lebih kecil */
     }
 
     .save-btn {
-        font-size: 12px;
-        padding: 8px 10px;
+        font-size: 12px; /* Ukuran font tombol lebih kecil */
+        padding: 8px 10px; /* Padding tombol lebih kecil */
     }
 }

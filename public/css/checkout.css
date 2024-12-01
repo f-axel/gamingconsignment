@@ -6,31 +6,31 @@
     max-width: 900px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #1b1b1b; /* Latar belakang */
-    color: #ffffff; /* Warna teks utama */
+    background-color: #ffffff; /* Latar belakang putih */
+    color: #000000; /* Warna teks hitam */
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan ringan */
 }
 
 /* Form checkout */
 .checkout-form {
     flex: 1 1 50%;
     padding: 20px;
-    background-color: #292929; /* Latar belakang form */
+    background-color: #f5f5f5; /* Latar belakang form abu terang */
     border-radius: 8px;
 }
 
 .checkout-form h2 {
     font-size: 24px;
     font-weight: bold;
-    color: #ffa31a; /* Warna judul form */
+    color: #000000; /* Warna judul form hitam */
     margin-bottom: 20px;
 }
 
 .checkout-form label {
     display: block;
     font-size: 14px;
-    color: #ffa31a; /* Warna label */
+    color: #4d4d4d; /* Warna label abu-abu gelap */
     margin-bottom: 5px;
 }
 
@@ -38,22 +38,22 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #808080; /* Border abu-abu */
+    border: 1px solid #b0b0b0; /* Border abu-abu netral */
     border-radius: 4px;
-    background-color: #1b1b1b; /* Latar belakang input */
-    color: #ffffff; /* Warna teks input */
+    background-color: #ffffff; /* Latar belakang input putih */
+    color: #000000; /* Warna teks input hitam */
     font-size: 14px;
 }
 
 .checkout-form input::placeholder {
-    color: #808080; /* Warna placeholder */
+    color: #a0a0a0; /* Warna placeholder abu-abu lembut */
 }
 
 .checkout-form button {
     width: 100%;
     padding: 12px;
-    background-color: #ffa31a; /* Latar tombol */
-    color: #292929; /* Warna teks tombol */
+    background-color: #000000; /* Latar tombol hitam */
+    color: #ffffff; /* Warna teks tombol putih */
     border: none;
     border-radius: 4px;
     font-size: 16px;
@@ -63,21 +63,21 @@
 }
 
 .checkout-form button:hover {
-    background-color: #e69500; /* Warna tombol saat hover */
+    background-color: #4d4d4d; /* Warna tombol saat hover abu gelap */
 }
 
 /* Ringkasan belanja */
 .cart-summary {
     flex: 1 1 40%;
     padding: 20px;
-    background-color: #292929; /* Latar belakang ringkasan */
+    background-color: #f5f5f5; /* Latar belakang ringkasan abu terang */
     border-radius: 8px;
 }
 
 .cart-summary h3 {
     font-size: 20px;
     font-weight: bold;
-    color: #ffa31a; /* Warna judul ringkasan */
+    color: #000000; /* Warna judul ringkasan hitam */
     margin-bottom: 15px;
 }
 
@@ -87,21 +87,21 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
-    border-bottom: 1px solid #808080; /* Garis pemisah */
+    border-bottom: 1px solid #dcdcdc; /* Garis pemisah abu lembut */
 }
 
 .cart-header {
     font-weight: bold;
-    color: #ffffff; /* Warna header */
+    color: #000000; /* Warna header hitam */
 }
 
 .cart-item {
-    color: #808080; /* Warna teks item */
+    color: #4d4d4d; /* Warna teks item abu-abu gelap */
 }
 
 .cart-item-total {
     font-size: 16px;
     font-weight: bold;
-    color: #ffa31a; /* Warna total */
+    color: #000000; /* Warna total hitam */
     border-bottom: none; /* Hapus garis bawah pada total */
 }

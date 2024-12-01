@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jual.in | checkout sukses</title>
+    <title>gaming.consign | checkout sukses</title>
     <link rel="stylesheet" href="<?= base_url('css/checkoutsukses.css') ?>">
     <link rel="stylesheet" href="<?= base_url('css/global.css') ?>">
 
@@ -23,7 +23,7 @@
     <div class="instructions">
         <p><strong>Instruksi Pembayaran:</strong></p>
         <ul>
-            <li>1. Melakukan pembayaran ke rekening BCA dengan no. 14045 a/n Donald Trump</li>
+            <li>1. Melakukan pembayaran ke rekening BCA dengan no. <strong>14045</strong> a/n <strong>Donald Trump</strong></li>
             <li>2. Sertakan keterangan dengan nomor order: <strong><?= esc($orderNumber); ?></strong></li>
             <li>3. Total pembayaran: <strong>Rp. <?= number_format($total, 0, ',', '.'); ?></strong></li>
         </ul>

@@ -3,17 +3,17 @@
     max-width: 900px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #1b1b1b; /* Latar kontainer */
-    color: #ffffff; /* Warna teks */
+    background-color: #FFFFFF; /* Latar kontainer putih */
+    color: #212121; /* Warna teks hitam */
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow lebih halus */
 }
 
 /* Judul halaman */
 .order-detail-container h1 {
     font-size: 28px;
     font-weight: bold;
-    color: #ffa31a; /* Warna judul */
+    color: #212121; /* Warna judul hitam gelap */
     text-align: center;
     margin-bottom: 20px;
 }
@@ -21,7 +21,7 @@
 /* Informasi pesanan */
 .order-info {
     margin-bottom: 20px;
-    background-color: #292929; /* Latar informasi */
+    background-color: #F1F1F1; /* Latar informasi abu muda */
     padding: 15px;
     border-radius: 8px;
 }
@@ -29,12 +29,12 @@
 .order-info div {
     font-size: 14px;
     margin-bottom: 10px;
-    color: #808080; /* Warna teks */
+    color: #808080; /* Warna teks abu terang */
 }
 
 .order-info span {
     font-weight: bold;
-    color: #ffa31a; /* Warna status atau elemen penting */
+    color: #212121; /* Warna status atau elemen penting hitam */
 }
 
 /* Status order */
@@ -46,18 +46,18 @@
 }
 
 .status.waiting {
-    background-color: #ffa31a; /* Warna status Waiting */
-    color: #292929;
+    background-color: #B0B0B0; /* Warna status Waiting abu terang */
+    color: #212121; /* Warna teks hitam */
 }
 
 .status.completed {
-    background-color: #808080; /* Warna status Completed */
-    color: #ffffff;
+    background-color: #D3D3D3; /* Warna status Completed abu muda */
+    color: #212121; /* Warna teks hitam */
 }
 
 .status.cancelled {
-    background-color: #292929; /* Warna status Cancelled */
-    color: #ffa31a;
+    background-color: #808080; /* Warna status Cancelled abu gelap */
+    color: #FFFFFF; /* Warna teks putih */
 }
 
 /* Tabel produk */
@@ -68,33 +68,33 @@
 }
 
 .order-products thead {
-    background-color: #ffa31a; /* Latar tabel header */
-    color: #292929; /* Warna teks header */
+    background-color: #333333; /* Latar tabel header abu gelap */
+    color: #FFFFFF; /* Warna teks header putih */
 }
 
 .order-products th, .order-products td {
     padding: 10px;
     text-align: left;
-    border: 1px solid #808080;
+    border: 1px solid #B0B0B0; /* Border abu terang */
 }
 
 .order-products tbody tr {
-    background-color: #1b1b1b; /* Latar baris */
+    background-color: #FFFFFF; /* Latar baris putih */
 }
 
 .order-products tbody tr:nth-child(even) {
-    background-color: #292929; /* Latar baris genap */
+    background-color: #F1F1F1; /* Latar baris genap abu muda */
 }
 
 .order-products td {
-    color: #ffffff; /* Warna teks sel */
+    color: #212121; /* Warna teks sel hitam */
 }
 
 /* Total harga */
 .order-total {
     font-size: 16px;
     font-weight: bold;
-    color: #ffa31a; /* Warna total harga */
+    color: #212121; /* Warna total harga hitam gelap */
     text-align: right;
     margin-top: 10px;
 }
@@ -109,8 +109,8 @@
 .order-buttons .btn {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #ffa31a; /* Latar tombol */
-    color: #292929; /* Warna teks tombol */
+    background-color: #B0B0B0; /* Latar tombol abu terang */
+    color: #212121; /* Warna teks tombol hitam */
     text-decoration: none;
     border-radius: 4px;
     font-weight: bold;
@@ -120,5 +120,5 @@
 }
 
 .order-buttons .btn:hover {
-    background-color: #e69500; /* Warna hover tombol */
+    background-color: #808080; /* Warna hover tombol abu gelap */
 }

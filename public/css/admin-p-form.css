@@ -1,97 +1,81 @@
-/* General Styling */
+/* Container Styling */
 .container {
-    background-color: #1b1b1b;
-    color: #ffffff;
+    background-color: #ffffff; /* Latar belakang putih */
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
     margin: 30px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow lembut */
 }
 
-/* Header */
-h2 {
-    color: #ffa31a;
+/* Heading */
+.container h2 {
+    color: #1b1b1b; /* Teks gelap */
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Form Styling */
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
 }
 
 .form-group label {
-    font-weight: bold;
-    color: #ffa31a;
+    color: #1b1b1b; /* Label teks gelap */
+    display: block;
     margin-bottom: 5px;
-    display: inline-block;
 }
 
-.form-group input[type="text"],
-.form-group input[type="number"],
-.form-group select,
-.form-group input[type="file"] {
+.form-group input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #808080;
+    border: 1px solid #cccccc; /* Border abu terang */
     border-radius: 5px;
-    background-color: #000000;
-    color: #ffffff;
-    font-size: 14px;
-    outline: none;
+    background-color: #f9f9f9; /* Latar belakang abu terang */
+    color: #1b1b1b; /* Teks gelap */
 }
 
 .form-group input::placeholder {
-    color: #808080;
+    color: #808080; /* Placeholder abu */
 }
 
 /* File Input */
 .form-group input[type="file"] {
-    border: none;
-}
-
-.form-group img {
-    margin-top: 10px;
-    border: 1px solid #808080;
-    border-radius: 5px;
-    max-width: 100px;
+    border: none; /* Hilangkan border untuk input file */
 }
 
 /* Button Styling */
 .save-btn {
-    background-color: #ffa31a;
-    color: #000000;
+    background-color: #1b1b1b; /* Tombol gelap */
+    color: #ffffff; /* Teks putih */
     border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
+    padding: 10px 20px;
     cursor: pointer;
-    font-weight: bold;
-    text-transform: uppercase;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
 }
 
 .save-btn:hover {
-    background-color: #ffffff;
-    color: #ffa31a;
-    transition: 0.3s;
+    background-color: #808080; /* Hover abu gelap */
+    color: #ffffff; /* Teks tetap putih */
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
-        padding: 15px;
+        padding: 15px; /* Kurangi padding pada layar kecil */
     }
 
     .form-group input,
     .form-group select {
-        font-size: 12px;
-        padding: 8px;
+        font-size: 12px; /* Ukuran font lebih kecil */
+        padding: 8px; /* Padding lebih kecil */
     }
 
     .save-btn {
-        font-size: 12px;
-        padding: 8px 10px;
+        font-size: 12px; /* Ukuran font tombol lebih kecil */
+        padding: 8px 10px; /* Padding tombol lebih kecil */
     }
 }

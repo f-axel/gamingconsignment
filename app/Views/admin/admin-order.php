@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jualin | admin order menu</title>
+    <title>gaming.consign | admin order menu</title>
     <link rel="stylesheet" href="<?= base_url('css/global.css') ?>">
     <link rel="stylesheet" href="<?= base_url('css/admin-order.css') ?>">
 </head>

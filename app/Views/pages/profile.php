@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jual.in | Profil</title>
+    <title>gaming.consign | Profil</title>
     <link rel="stylesheet" href="<?= base_url('css/global.css') ?>">
     <link rel="stylesheet" href="<?= base_url('css/profile.css') ?>">
 

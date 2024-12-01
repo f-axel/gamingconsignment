@@ -6,6 +6,7 @@
     justify-content: center;
     gap: 30px;
     padding: 20px;
+    background-color: #ffffff; /* Background terang */
 }
 
 /* Kontainer untuk gambar dan informasi produk */
@@ -16,9 +17,11 @@
     gap: 20px;
     width: 100%;
     max-width: 1200px;
-    border: 2px solid #ffa31a; /* Outline kotak produk */
+    border: 2px solid #ccc; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     padding: 20px;
+    background-color: #ffffff; /* Background kotak produk terang */
 }
 
 /* Gaya untuk gambar produk */
@@ -47,13 +50,13 @@
 .product-title {
     font-size: 30px;
     font-weight: bold;
-    color: #ffa31a;
+    color: #333333; /* Teks gelap */
     margin-bottom: -30px; /* Mengurangi jarak bawah title */
 }
 
 .product-price {
     font-size: 24px;
-    color: #ffa31a;
+    color: #555555; /* Teks harga lebih terang */
 }
 
 /* Tombol add to cart */
@@ -61,20 +64,20 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    align-items:baseline;
+    align-items: baseline;
 }
 
 .qty-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #292929;
+    background-color: #f2f2f2; /* Background terang untuk kontainer kuantitas */
     border-radius: 4px;
 }
 
 .qty-btn {
-    background-color: #ffa31a;
-    color: #292929;
+    background-color: #d9d9d9; /* Tombol abu-abu terang */
+    color: #333333; /* Teks gelap */
     border: none;
     padding: 10px;
     font-size: 16px;
@@ -84,15 +87,15 @@
 }
 
 .qty-btn:hover {
-    background-color: #e69315;
+    background-color: #b0b0b0; /* Tombol berubah warna saat hover */
 }
 
 .qty-input {
     width: 50px; /* Ukuran input */
     padding: 10px;
-    background-color: #292929;
-    color: #ffa31a;
-    border: 1px solid #292929;
+    background-color: #f2f2f2;
+    color: #333333; /* Teks gelap */
+    border: 1px solid #d9d9d9;
     border-radius: 4px;
     font-size: 16px;
     text-align: center;
@@ -105,12 +108,12 @@
 
 .qty-input:focus {
     outline: none;
-    border-color: #ffa31a;
+    border-color: #888; /* Fokus input dengan border abu-abu */
 }
 
 .add-to-cart-btn {
-    background-color: #ffa31a;
-    color: white;
+    background-color: #d9d9d9;
+    color: #333333;
     border: none;
     padding: 20px 40px;
     border-radius: 5px;
@@ -121,7 +124,7 @@
 }
 
 .add-to-cart-btn:hover {
-    background-color: #ffa31a;
+    background-color: #b0b0b0; /* Tombol berubah warna saat hover */
 }
 
 /* Menyusun informasi produk seperti penjual, status, deskripsi */
@@ -133,13 +136,13 @@
 
 .product-seller, .product-status, .product-desc {
     font-size: 16px;
-    color: #808080;
+    color: #555555; /* Warna teks abu-abu */
 }
 
 /* Deskripsi Produk */
 .product-desc {
     font-size: 14px;
-    color: #ffa31a;
+    color: #333333; /* Teks deskripsi gelap */
 }
 
 /* Gaya untuk komentar */
@@ -147,9 +150,10 @@
     margin-top: 30px;
     width: 100%;
     max-width: 1200px;
-    border: 2px solid #ffa31a; /* Outline kotak komentar */
+    border: 2px solid #ccc; /* Outline kotak komentar */
     border-radius: 10px;
     padding: 20px;
+    background-color: #ffffff; /* Background terang untuk komentar */
 }
 
 .comments-list {
@@ -159,25 +163,25 @@
 }
 
 .comment-item {
-    background-color: #292929;
+    background-color: #f2f2f2;
     padding: 10px;
     border-radius: 8px;
-    color: #ffa31a;
+    color: #333333; /* Teks komentar gelap */
 }
 
 .comment-input {
     width: 100%;
     padding: 10px;
-    background-color: #292929;
-    color: #ffa31a;
+    background-color: #f9f9f9;
+    color: #333333;
     border: none;
     border-radius: 5px;
     font-size: 14px;
 }
 
 .comment-btn {
-    background-color: #ff8500;
-    color: white;
+    background-color: #d9d9d9;
+    color: #333333;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -186,12 +190,12 @@
 }
 
 .comment-btn:hover {
-    background-color: #ffa31a;
+    background-color: #b0b0b0; /* Tombol komentar berubah saat hover */
 }
 
 /* Link kembali ke home */
 .back-home-link {
-    color: #ffa31a;
+    color: #333333;
     font-size: 16px;
     text-decoration: none;
 }

@@ -3,18 +3,18 @@
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #1b1b1b; /* Latar belakang */
-    color: #ffffff; /* Warna teks utama */
+    background-color: #ffffff; /* Latar belakang putih */
+    color: #000000; /* Warna teks utama hitam */
     border-radius: 8px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan ringan */
 }
 
 /* Judul halaman */
 .success-container h1 {
     font-size: 28px;
     font-weight: bold;
-    color: #ffa31a; /* Warna judul */
+    color: #000000; /* Warna judul hitam */
     margin-bottom: 20px;
 }
 
@@ -22,17 +22,17 @@
 .order-number {
     font-size: 18px;
     margin: 15px 0;
-    color: #ffa31a; /* Warna nomor order */
+    color: #4d4d4d; /* Warna nomor order abu-abu gelap */
 }
 
 .order-number strong {
-    color: #ffffff; /* Sorot nomor order */
+    color: #000000; /* Sorot nomor order hitam */
 }
 
 /* Paragraf utama */
 .success-container p {
     font-size: 16px;
-    color: #808080; /* Warna teks deskripsi */
+    color: #4d4d4d; /* Warna teks deskripsi abu-abu gelap */
     margin-bottom: 20px;
 }
 
@@ -40,7 +40,7 @@
 .instructions p {
     font-size: 16px;
     font-weight: bold;
-    color: #ffa31a; /* Warna heading instruksi */
+    color: #000000; /* Warna heading instruksi hitam */
     margin-bottom: 10px;
 }
 
@@ -48,33 +48,33 @@
     text-align: left;
     margin: 0 auto 20px;
     padding-left: 20px;
-    color: #ffffff; /* Warna teks instruksi */
+    color: #000000; /* Warna teks instruksi hitam */
 }
 
 .instructions ul li {
     margin-bottom: 10px;
-    color: #808080; /* Warna teks setiap poin */
+    color: #4d4d4d; /* Warna teks setiap poin abu-abu gelap */
 }
 
 /* Teks penting */
 .instructions strong {
-    color: #ffa31a; /* Warna untuk teks penting */
+    color: #000000; /* Warna untuk teks penting hitam */
 }
 
 /* Link dalam teks */
 .instructions a {
-    color: #ffa31a;
+    color: #000000;
     text-decoration: underline;
 }
 
 .instructions a:hover {
-    color: #e69500; /* Warna saat link di-hover */
+    color: #4d4d4d; /* Warna saat link di-hover abu-abu gelap */
 }
 
 /* Tombol kembali ke beranda */
 .success-container button {
-    background-color: #ffa31a;
-    color: #292929;
+    background-color: #000000; /* Latar belakang tombol hitam */
+    color: #ffffff; /* Warna teks tombol putih */
     border: none;
     border-radius: 4px;
     padding: 10px 20px;
@@ -85,5 +85,5 @@
 }
 
 .success-container button:hover {
-    background-color: #e69500; /* Warna hover tombol */
+    background-color: #4d4d4d; /* Warna hover tombol abu-abu gelap */
 }

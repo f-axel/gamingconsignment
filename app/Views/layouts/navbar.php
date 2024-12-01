@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="<?= base_url('css/navbar.css') ?>">
 <nav class="navbar-utama">
 <a class="navbar-logo" href="/">
-    <img src="/uploads/jual-in.png" alt="jual.in Home" style="height: 50px;">
+    <img src="/uploads/logo.png" alt="Home" style="height: 50px;">
 </a>
 <div class="navbar-isi">
     <ul class="navbar-buttons">

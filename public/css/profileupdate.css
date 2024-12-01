@@ -1,8 +1,8 @@
 /* Kontainer utama */
 body {
     font-family: "Plus Jakarta Sans", serif;
-    background-color: #292929; /* Latar belakang halaman */
-    color: #ffffff; /* Warna teks */
+    background-color: #f0f0f0; /* Latar belakang terang */
+    color: #333333; /* Warna teks gelap */
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ body {
 h2 {
     text-align: center;
     font-size: 32px;
-    color: #ffa31a; /* Warna judul */
+    color: #333333; /* Warna judul */
     margin-top: 50px;
 }
 
@@ -19,40 +19,40 @@ h2 {
 form {
     max-width: 600px;
     margin: 50px auto;
-    background-color: #1b1b1b; /* Latar form */
+    background-color: #ffffff; /* Latar form terang */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 form label {
     display: block;
     margin-bottom: 8px;
     font-size: 14px;
-    color: #ffffff; /* Warna label */
+    color: #333333; /* Warna label */
 }
 
 form input {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
-    border: 1px solid #808080;
-    background-color: #292929;
-    color: #ffffff;
+    border: 1px solid #cccccc; /* Warna border input */
+    background-color: #f9f9f9; /* Latar belakang input terang */
+    color: #333333; /* Warna teks input gelap */
     border-radius: 4px;
 }
 
 form input:focus {
-    border-color: #ffa31a; /* Border saat input difokuskan */
+    border-color: #23272a; /* Border saat input difokuskan */
     outline: none;
 }
 
 form button {
     width: 100%;
     padding: 12px;
-    background-color: #ffa31a;
+    background-color: #23272a;
     border: none;
-    color: #292929;
+    color: #ffffff;
     font-size: 16px;
     font-weight: bold;
     border-radius: 4px;
@@ -70,5 +70,5 @@ form button:hover {
 }
 
 .navbar a:hover {
-    color: #ffffff; /* Warna navbar saat hover */
+    color: #333333; /* Warna navbar saat hover */
 }

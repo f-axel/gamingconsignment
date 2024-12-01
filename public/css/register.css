@@ -1,31 +1,31 @@
-/* Kontainer Halaman register/Register */
+/* Kontainer Halaman Register */
 .register-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #000000; /* Warna latar belakang hitam */
-    color: #ffffff; /* Warna teks */
+    background-color: #ffffff; /* Latar belakang putih */
+    color: #000000; /* Warna teks hitam */
 }
 
 /* Judul Halaman */
 .register-container h2 {
     font-size: 32px;
-    color: #ffa31a; /* Warna judul */
+    color: #000000; /* Warna judul hitam */
     margin-bottom: 20px;
     text-align: center;
 }
 
 /* Formulir */
 .register-form {
-    background-color: #000000; /* Latar belakang formulir */
+    background-color: #f5f5f5; /* Latar belakang abu muda untuk formulir */
     padding: 20px;
-    border: 2px solid #ffa31a; /* Outline oranye di sekitar form */
+    border: 2px solid #cccccc; /* Border abu-abu */
     border-radius: 10px;
     width: 100%;
     max-width: 400px;
-    box-shadow: 0 4px 8px rgba(255, 163, 26, 0.4); /* Efek shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek shadow */
 }
 
 /* Label */
@@ -33,7 +33,7 @@
     display: block;
     margin-bottom: 5px;
     font-size: 16px;
-    color: #ffffff; /* Warna label */
+    color: #000000; /* Warna label hitam */
 }
 
 /* Input Fields */
@@ -44,15 +44,15 @@
     padding: 10px;
     margin-bottom: 20px;
     border: none; /* Menghapus kotak outline */
-    border-bottom: 2px solid #ffa31a; /* Garis bawah oranye */
+    border-bottom: 2px solid #000000; /* Garis bawah hitam */
     background-color: transparent; /* Transparan agar sesuai dengan latar */
-    color: #ffffff; /* Warna teks */
+    color: #000000; /* Warna teks hitam */
     font-size: 16px;
 }
 
 .register-form input:focus {
     outline: none;
-    border-bottom-color: #e69500; /* Warna garis bawah saat fokus */
+    border-bottom-color: #808080; /* Warna garis bawah saat fokus menjadi abu-abu */
 }
 
 /* Checkbox */
@@ -62,15 +62,15 @@
 }
 
 .form-check-label {
-    color: #ffffff;
+    color: #000000; /* Warna teks checkbox hitam */
     font-size: 14px;
 }
 
-/* Tombol register/Register */
+/* Tombol Register */
 .register-form button {
     width: 100%;
-    background-color: #ffa31a; /* Warna tombol */
-    color: #292929; /* Warna teks tombol */
+    background-color: #000000; /* Warna tombol hitam */
+    color: #ffffff; /* Warna teks putih */
     padding: 12px;
     font-size: 16px;
     font-weight: bold;
@@ -81,19 +81,19 @@
 }
 
 .register-form button:hover {
-    background-color: #e69500; /* Warna tombol saat hover */
+    background-color: #333333; /* Warna tombol saat hover (gelap) */
 }
 
 /* Footer */
 .register-container p {
     margin-top: 20px;
     font-size: 14px;
-    color: #808080; /* Warna teks footer */
+    color: #808080; /* Warna teks footer abu-abu */
     text-align: center;
 }
 
 .register-container p a {
-    color: #ffa31a; /* Warna tautan */
+    color: #000000; /* Warna tautan hitam */
     text-decoration: none;
 }
 

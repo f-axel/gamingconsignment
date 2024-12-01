@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jual.in | beranda</title>
+    <title>gaming.consign | beranda</title>
     <link rel="stylesheet" href="<?= base_url('css/home.css') ?>">
     <link rel="stylesheet" href="<?= base_url('css/global.css') ?>">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -54,10 +54,10 @@
                 <div class="product-item" data-price="<?= $product['price'] ?>" data-category="<?= $product['id_category'] ?>">
                     <img src="/uploads/<?= $product['image'] ?>" alt="<?= $product['title'] ?>" style="max-width: 100%; height: auto;">
                     <h3><?= $product['title'] ?></h3>
-                    <p>Kategori: <?= $product['category_title'] ?></p>
-                    <p>Harga: <strong>Rp. <?= number_format($product['price'], 0, ',', '.') ?></strong></p>
+                    <p>dalam <?= $product['category_title'] ?></p>
+                    <p><strong>Rp. <?= number_format($product['price'], 0, ',', '.') ?></strong></p>
                     <p>Status: <?= $product['is_available'] ? 'Tersedia' : 'Stok habis' ?></p>
-                    <p>Seller: <?= $product['user_name']?></p>
+                    <p>Dijual <strong><?= $product['user_name']?></strong></p>
                 </div>
             </a>
         <?php endforeach; ?>

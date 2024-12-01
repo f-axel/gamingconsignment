@@ -3,17 +3,17 @@
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #1b1b1b; /* Latar belakang */
-    color: #ffffff; /* Warna teks */
+    background-color: #FFFFFF; /* Latar belakang putih */
+    color: #212121; /* Warna teks hitam */
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow lebih halus */
 }
 
 /* Judul halaman */
 .order-confirm-container h1 {
     font-size: 28px;
     font-weight: bold;
-    color: #ffa31a; /* Warna judul */
+    color: #212121; /* Warna judul hitam gelap */
     text-align: center;
     margin-bottom: 20px;
 }
@@ -21,7 +21,7 @@
 /* Informasi order */
 .order-info {
     margin-bottom: 20px;
-    background-color: #292929; /* Latar informasi order */
+    background-color: #F1F1F1; /* Latar informasi order abu muda */
     padding: 15px;
     border-radius: 8px;
 }
@@ -29,12 +29,12 @@
 .order-info div {
     font-size: 14px;
     margin-bottom: 10px;
-    color: #808080; /* Warna teks informasi */
+    color: #808080; /* Warna teks informasi abu terang */
 }
 
 .order-info span {
     font-weight: bold;
-    color: #ffa31a; /* Warna teks yang disorot */
+    color: #212121; /* Warna teks yang disorot hitam */
 }
 
 /* Status order */
@@ -45,8 +45,8 @@
 }
 
 .status.waiting {
-    background-color: #ffa31a; /* Warna status */
-    color: #292929; /* Warna teks status */
+    background-color: #B0B0B0; /* Warna status Waiting abu terang */
+    color: #212121; /* Warna teks status hitam */
 }
 
 /* Form konfirmasi pembayaran */
@@ -59,7 +59,7 @@
 .confirm-form label {
     font-size: 14px;
     font-weight: bold;
-    color: #ffa31a; /* Warna label */
+    color: #212121; /* Warna label hitam */
     margin-bottom: 5px;
 }
 
@@ -67,9 +67,9 @@
 .confirm-form textarea {
     width: 100%;
     padding: 10px;
-    background-color: #292929; /* Latar input */
-    color: #ffffff; /* Warna teks input */
-    border: 1px solid #808080; /* Border */
+    background-color: #F1F1F1; /* Latar input abu muda */
+    color: #212121; /* Warna teks input hitam */
+    border: 1px solid #B0B0B0; /* Border abu terang */
     border-radius: 4px;
     font-size: 14px;
 }
@@ -81,16 +81,16 @@
 
 .confirm-form input[type="file"] {
     padding: 5px;
-    background-color: #1b1b1b; /* Latar input file */
-    border: none;
-    color: #808080; /* Warna teks file */
+    background-color: #FFFFFF; /* Latar input file putih */
+    border: 1px solid #B0B0B0; /* Border abu terang */
+    color: #808080; /* Warna teks file abu terang */
     font-size: 14px;
 }
 
 .confirm-form button.submit-btn {
     padding: 12px;
-    background-color: #ffa31a; /* Warna tombol */
-    color: #292929; /* Warna teks tombol */
+    background-color: #B0B0B0; /* Warna tombol abu terang */
+    color: #212121; /* Warna teks tombol hitam */
     border: none;
     border-radius: 4px;
     font-size: 16px;
@@ -100,5 +100,5 @@
 }
 
 .confirm-form button.submit-btn:hover {
-    background-color: #e69500; /* Warna tombol saat hover */
+    background-color: #808080; /* Warna tombol saat hover abu gelap */
 }

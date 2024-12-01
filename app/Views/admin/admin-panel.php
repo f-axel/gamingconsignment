@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jual.in | admin panel</title>
+    <title>gaming.consign | admin panel</title>
     <style>
         .admin-section {
             display: none;

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= esc($product['title']) ?> - jual.in</title>
+    <title><?= esc($product['title']) ?> - gaming.consign</title>
     <link rel="stylesheet" href="<?= base_url('css/global.css') ?>">
     <link rel="stylesheet" href="<?= base_url('css/product-display.css') ?>">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -28,7 +28,7 @@
 
                 <div class="qty-container">
                     <button type="button" class="qty-btn minus" onclick="changeQuantity(-1)">-</button>
-                    <input type="number" class="qty-input" value="1" min="1">
+                    <input type="number" name="qty" class="qty-input" value="1" min="1">
                     <button type="button" class="qty-btn plus" onclick="changeQuantity(1)">+</button>
                 </div>
                 

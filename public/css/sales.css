@@ -1,7 +1,8 @@
 .page-sales {
-    background-color: #000000;
-    color: #ffa31a;
+    background-color: #ffffff; /* Putih sebagai background */
+    color: #1b1b1b; /* Teks gelap */
     font-family: "Plus Jakarta Sans", serif;
+    padding: 20px;
 }
 
 .sales-header {
@@ -12,7 +13,7 @@
 .sales-title {
     font-size: 2rem;
     font-weight: bold;
-    color: #ffa31a;
+    color: #1b1b1b; /* Teks gelap */
 }
 
 .sales-content {
@@ -27,37 +28,38 @@
 .sales-table {
     width: 100%;
     border-collapse: collapse;
-    background-color: #292929;
+    background-color: #f9f9f9; /* Abu terang untuk background tabel */
     border-radius: 8px;
     overflow: hidden;
     text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
 }
 
 .sales-table th,
 .sales-table td {
     padding: 10px 15px;
-    border: 1px solid #808080;
+    border: 1px solid #cccccc; /* Border abu terang */
 }
 
 .sales-table th {
-    background-color: #ffa31a;
-    color: #292929;
+    background-color: #e0e0e0; /* Abu terang untuk header */
+    color: #1b1b1b; /* Teks gelap */
     font-weight: bold;
     text-align: center;
 }
 
 .sales-table tr:nth-child(even) {
-    background-color: #1b1b1b;
+    background-color: #f2f2f2; /* Abu terang untuk baris genap */
 }
 
 .sales-table tr:hover {
-    background-color: #ffa31a;
-    color: #292929;
+    background-color: #e6e6e6; /* Warna hover abu sedang */
+    color: #000000; /* Teks hitam */
 }
 
 .no-sales-message {
     text-align: center;
     font-size: 1.2rem;
     margin-top: 20px;
-    color: #808080;
+    color: #999999; /* Abu gelap untuk pesan */
 }

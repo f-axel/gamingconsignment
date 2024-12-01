@@ -2,11 +2,11 @@
 .profile-container {
     max-width: 800px;
     margin: 50px auto;
-    background-color: #1b1b1b; /* Latar belakang kontainer */
+    background-color: #f0f0f0; /* Latar belakang terang */
     padding: 20px;
     border-radius: 10px;
-    color: #ffffff; /* Warna teks */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #333333; /* Warna teks gelap */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow lembut */
     text-align: center;
 }
 
@@ -14,14 +14,14 @@
 .profile-container h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #ffa31a; /* Warna judul */
+    color: #333333; /* Warna judul */
 }
 
 /* Info Profil */
 .profile-info {
     margin-bottom: 30px;
     padding: 10px;
-    background-color: #292929; /* Latar info profil */
+    background-color: #e0e0e0; /* Latar info profil lebih terang */
     border-radius: 8px;
 }
 
@@ -29,18 +29,18 @@
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 5px;
-    color: #ffffff; /* Warna nama */
+    color: #333333; /* Warna nama */
 }
 
 .profile-info .email {
     font-size: 16px;
-    color: #808080; /* Warna email */
+    color: #666666; /* Warna email */
 }
 
 /* Tombol Edit Profil */
 .edit-btn {
-    background-color: #ffa31a; /* Warna tombol */
-    color: #292929; /* Warna teks tombol */
+    background-color: #cccccc; /* Warna tombol */
+    color: #333333; /* Warna teks tombol */
     font-size: 16px;
     font-weight: bold;
     padding: 10px 20px;
@@ -53,5 +53,5 @@
 }
 
 .edit-btn:hover {
-    background-color: #e69500; /* Warna tombol saat hover */
+    background-color: #b3b3b3; /* Warna tombol saat hover */
 }

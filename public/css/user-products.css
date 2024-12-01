@@ -1,7 +1,8 @@
 .page-user-products {
-    background-color: #000000;
-    color: #ffa31a;
+    background-color: #ffffff; /* Background putih */
+    color: #1b1b1b; /* Teks gelap */
     font-family: "Plus Jakarta Sans", serif;
+    padding: 20px;
 }
 
 .user-products-header {
@@ -13,21 +14,22 @@
 
 .user-products-title {
     font-size: 2rem;
-    color: #ffa31a;
+    color: #1b1b1b; /* Teks gelap */
 }
 
 .btn-add-product {
-    background-color: #ffa31a;
-    color: #292929;
+    background-color: #1b1b1b; /* Tombol gelap */
+    color: #ffffff; /* Teks putih */
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 .btn-add-product:hover {
-    background-color: #808080;
-    color: #1b1b1b;
+    background-color: #808080; /* Hover abu-abu */
+    color: #ffffff; /* Teks tetap putih */
 }
 
 .flash-message {
@@ -35,61 +37,68 @@
     padding: 10px;
     border-radius: 5px;
     font-size: 0.9rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Efek shadow */
 }
 
 .flash-success {
-    background-color: #292929;
-    color: #ffa31a;
+    background-color: #f2f2f2; /* Abu terang */
+    color: #1b1b1b; /* Teks gelap */
 }
 
 .flash-error {
-    background-color: #292929;
-    color: #ffa31a;
+    background-color: #f2f2f2; /* Abu terang */
+    color: #1b1b1b; /* Teks gelap */
 }
 
 .products-table {
     width: 100%;
     border-collapse: collapse;
+    background-color: #f9f9f9; /* Background tabel abu terang */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek shadow */
 }
 
-.products-table th, .products-table td {
+.products-table th,
+.products-table td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #808080;
+    border-bottom: 1px solid #cccccc; /* Border abu terang */
 }
 
 .products-table th {
-    background-color: #292929;
-    color: #ffa31a;
+    background-color: #e0e0e0; /* Abu terang */
+    color: #1b1b1b; /* Teks gelap */
 }
 
 .products-table tr:nth-child(even) {
-    background-color: #292929;
+    background-color: #f2f2f2; /* Baris genap abu terang */
 }
 
 .products-table .product-image {
     border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow untuk gambar */
 }
 
 .action-links a {
     margin-right: 10px;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 .btn-edit {
-    color: #ffa31a;
+    color: #1b1b1b; /* Teks gelap */
 }
 
 .btn-delete {
-    color: #808080;
+    color: #808080; /* Abu gelap */
 }
 
 .btn-delete:hover {
-    color: #ffa31a;
+    color: #1b1b1b; /* Teks gelap pada hover */
 }
 
 .no-products {
     text-align: center;
-    color: #808080;
+    color: #808080; /* Teks abu gelap */
 }

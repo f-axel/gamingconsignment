@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jual.in | order detail</title>
+    <title>gaming.consign | order detail</title>
     <link rel="stylesheet" href="<?= base_url('css/ordersdetail.css') ?>">
     <link rel="stylesheet" href="<?= base_url('css/global.css') ?>">
 

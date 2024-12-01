@@ -1,24 +1,24 @@
 /* Admin Panel Container */
 .admin-panel-container {
-    background-color: #1b1b1b;
+    background-color: #ffffff; /* Background putih */
     padding: 20px;
     max-width: 1200px;
     margin: 20px auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow lembut */
 }
 
 /* Heading Styles */
 .admin-panel-container h1, 
 .admin-panel-container h2 {
-    color: #ffa31a;
+    color: #1b1b1b; /* Teks gelap */
     text-align: center;
 }
 
 /* Menu Buttons */
 .admin-menu .menu-btn {
-    background-color: #808080;
-    color: #ffffff;
+    background-color: #f2f2f2; /* Abu terang */
+    color: #1b1b1b; /* Teks gelap */
     border: none;
     padding: 10px 20px;
     margin: 5px;
@@ -28,17 +28,18 @@
 }
 
 .admin-menu .menu-btn:hover {
-    background-color: #ffa31a;
-    color: #000000;
+    background-color: #808080; /* Hover abu gelap */
+    color: #ffffff; /* Teks putih */
 }
 
 /* Admin Section */
 .admin-section {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #f9f9f9; /* Abu terang */
+    color: #1b1b1b; /* Teks gelap */
     padding: 15px;
     border-radius: 8px;
     margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow ringan */
 }
 
 /* Buttons */
@@ -47,8 +48,8 @@
 .add-product-btn, 
 .edit-btn, 
 .delete-btn {
-    background-color: #ffa31a;
-    color: #000000;
+    background-color: #1b1b1b; /* Tombol gelap */
+    color: #ffffff; /* Teks putih */
     border: none;
     padding: 8px 15px;
     cursor: pointer;
@@ -62,8 +63,8 @@
 .add-product-btn:hover, 
 .edit-btn:hover, 
 .delete-btn:hover {
-    background-color: #808080;
-    color: #ffffff;
+    background-color: #808080; /* Hover abu gelap */
+    color: #ffffff; /* Teks tetap putih */
 }
 
 /* Table Styles */
@@ -71,35 +72,38 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 15px;
+    background-color: #ffffff; /* Background tabel putih */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow tabel */
 }
 
 table th, table td {
-    border: 1px solid #808080;
+    border: 1px solid #cccccc; /* Border abu terang */
     text-align: left;
     padding: 10px;
 }
 
 table th {
-    background-color: #ffa31a;
-    color: #000000;
+    background-color: #e0e0e0; /* Abu terang */
+    color: #1b1b1b; /* Teks gelap */
 }
 
 table td {
-    background-color: #1b1b1b;
-    color: #ffffff;
+    background-color: #f9f9f9; /* Abu terang */
+    color: #1b1b1b; /* Teks gelap */
 }
 
 /* Search Bar */
 .search-bar input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #808080;
+    border: 1px solid #cccccc; /* Border abu terang */
     border-radius: 5px;
-    background-color: #1b1b1b;
-    color: #ffffff;
+    background-color: #ffffff; /* Background putih */
+    color: #1b1b1b; /* Teks gelap */
     margin-bottom: 15px;
 }
 
 .search-bar input::placeholder {
-    color: #808080;
+    color: #808080; /* Placeholder abu */
 }

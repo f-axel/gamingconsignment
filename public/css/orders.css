@@ -3,17 +3,17 @@
     max-width: 900px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #1b1b1b; /* Latar kontainer */
-    color: #ffffff; /* Warna teks */
+    background-color: #FFFFFF; /* Latar kontainer putih */
+    color: #212121; /* Warna teks hitam */
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow lebih halus */
 }
 
 /* Judul halaman */
 .orders-container h1 {
     font-size: 28px;
     font-weight: bold;
-    color: #ffa31a; /* Warna judul */
+    color: #212121; /* Warna judul hitam gelap */
     text-align: center;
     margin-bottom: 20px;
 }
@@ -25,37 +25,37 @@
 }
 
 .orders-table thead {
-    background-color: #ffa31a; /* Latar tabel header */
-    color: #292929; /* Warna teks header */
+    background-color: #333333; /* Latar tabel header abu gelap */
+    color: #FFFFFF; /* Warna teks header putih */
 }
 
 .orders-table th, .orders-table td {
     padding: 10px;
     text-align: left;
-    border: 1px solid #808080;
+    border: 1px solid #B0B0B0; /* Border abu terang */
 }
 
 .orders-table tbody tr {
-    background-color: #1b1b1b; /* Latar baris */
+    background-color: #FFFFFF; /* Latar baris putih */
 }
 
 .orders-table tbody tr:nth-child(even) {
-    background-color: #292929; /* Latar baris genap */
+    background-color: #F1F1F1; /* Latar baris genap abu muda */
 }
 
 .orders-table td {
-    color: #ffffff; /* Warna teks sel */
+    color: #212121; /* Warna teks sel hitam */
 }
 
 /* Tautan nomor order */
 .orders-table td a {
-    color: #ffa31a;
+    color: #333333; /* Warna tautan abu gelap */
     text-decoration: none;
     font-weight: bold;
 }
 
 .orders-table td a:hover {
-    color: #e69500; /* Warna hover tautan */
+    color: #555555; /* Warna hover tautan abu sedang */
 }
 
 /* Status order */
@@ -67,24 +67,24 @@
 }
 
 .status.waiting {
-    background-color: #ffa31a; /* Warna status Waiting */
-    color: #292929;
+    background-color: #B0B0B0; /* Warna status Waiting abu terang */
+    color: #212121; /* Warna teks hitam */
 }
 
 .status.completed {
-    background-color: #808080; /* Warna status Completed */
-    color: #ffffff;
+    background-color: #D3D3D3; /* Warna status Completed abu muda */
+    color: #212121; /* Warna teks hitam */
 }
 
 .status.cancelled {
-    background-color: #292929; /* Warna status Cancelled */
-    color: #ffa31a;
+    background-color: #333333; /* Warna status Cancelled abu gelap */
+    color: #FFFFFF; /* Warna teks putih */
 }
 
 /* Pesan jika tidak ada pesanan */
 .orders-container p {
     font-size: 16px;
-    color: #808080; /* Warna teks pesan */
+    color: #B0B0B0; /* Warna teks pesan abu terang */
     text-align: center;
     margin-top: 20px;
 }

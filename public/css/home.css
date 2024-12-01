@@ -18,7 +18,7 @@
 
 /* Gaya untuk label */
 .filter-options label {
-    color: #ffa31a; /* Warna teks oranye */
+    color: #23272a; /* Warna teks oranye */
 }
 
 
@@ -28,8 +28,8 @@
     border-radius: 4px;
     border: none; /* Hapus border default */
     outline: none; /* Hapus outline default */
-    background-color: #292929; /* Background hitam */
-    color: #ffa31a; /* Teks oranye */
+    background-color: #b6b6b6; /* Background hitam */
+    color: #23272a; /* Teks oranye */
     font-size: 14px;
     font-weight: bold;
     transition: all 0.3s ease; /* Efek transisi */
@@ -37,7 +37,7 @@
 }
 
 .filter-options input::placeholder {
-    color: #ffa31a; /* Placeholder berwarna oranye */
+    color: #23272a; /* Placeholder berwarna oranye */
 }
 
 .filter-options input {
@@ -54,8 +54,8 @@
 
 /* Gaya untuk kotak pembungkus filter */
 .filter-bar {
-    border: 2px solid #ff8500; /* Outline oranye */
-    background-color: #000000; /* Background abu-abu */
+    border: 2px solid #23272a; /* Outline oranye */
+    background-color: #ffffff; /* Background abu-abu */
     border-radius: 8px; /* Sudut melengkung */
     padding: 15px; /* Jarak dalam kotak */
 }
@@ -70,9 +70,8 @@
 .search-section label {
     font-size: 14px;
     font-weight: bold;
-    color: #ffa31a;
+    color: #23272a;
 }
-
 
 
 /* Mengatur tampilan daftar produk */
@@ -88,11 +87,10 @@
 .product-item {
     flex: 1 1 calc(33.33% - 20px); /* 3 produk per baris */
     box-sizing: border-box;
-    border: 1px solid #292929; /* Warna border dari palet warna */
     padding: 10px;
     border-radius: 8px; /* Sudut melengkung */
-    background-color: #1b1b1b; /* Warna latar belakang produk */
-    color: #ffa31a; /* Warna teks utama */
+    background-color: #ffffff; /* Warna latar belakang produk */
+    color: #23272a; /* Warna teks utama */
     text-align: center;
     display: flex;
     flex-direction: column; /* Agar elemen dalam produk rapi */
@@ -101,8 +99,8 @@
 
 .filter-options input:focus,
 .filter-options select:focus {
-    background-color: #292929; /* Ubah background saat fokus */
-    box-shadow: 0 0 5px #ffa31a; /* Tambahkan glow oranye */
+    background-color: #99aab5; /* Ubah background saat fokus */
+    box-shadow: 0 0 5px #23272a; /* Tambahkan glow oranye */
 }
 
 /* Gaya gambar produk */
@@ -116,28 +114,28 @@
 /* Judul produk */
 .product-item h3 {
     font-size: 1.2rem;
-    color: #ffa31a; /* Warna judul produk */
+    color: #23272a; /* Warna judul produk */
     margin-top: 10px;
 }
 
 /* Deskripsi produk */
 .product-item p {
-    color: #808080; /* Warna deskripsi */
+    color: #313131; /* Warna deskripsi */
 }
 
 /* Tombol add to cart */
 .product-item button {
     margin-top: 10px;
     padding: 8px 12px;
-    background-color: #ffa31a;
-    color: #292929;
+    background-color: #23272a;
+    color: #ffffff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .product-item button:hover {
-    background-color: #e69500; /* Efek hover pada tombol */
+    background-color: #23272a; /* Efek hover pada tombol */
 }
 
 
@@ -147,14 +145,14 @@
     margin: 20px 0;
     font-size: 2rem;
     font-weight: bold;
-    color: #FFA31A; /* Warna teks */
+    color: #23272a; /* Warna teks */
     overflow: hidden; /* Untuk menjaga efek animasi tetap rapi */
 }
 
 #animatedText {
     display: inline-block;
     white-space: nowrap;
-    border-right: 3px solid #FFA31A; /* Efek kursor */
+    border-right: 3px solid #23272a; /* Efek kursor */
     animation: typing 2s steps(30, end), blink 0.5s step-end infinite alternate;
 }
 
@@ -172,7 +170,7 @@
         border-color: transparent;
     }
     to {
-        border-color: #FFA31A;
+        border-color: #23272a;
     }
 }
 
@@ -188,7 +186,7 @@
     bottom: 20px;
     right: 20px;
     z-index: 100; /* Agar tombol berada di atas elemen lainnya */
-    background-color: #FFA31A; /* Warna latar belakang tombol */
+    background-color: #23272a; /* Warna latar belakang tombol */
     color: #FFFFFF; /* Warna teks */
     border: none;
     outline: none;
@@ -203,7 +201,7 @@
 
 /* Hover effect */
 #scrollToTopBtn:hover {
-    background-color: #FF8A00; /* Warna saat hover */
+    background-color: #2c2f33; /* Warna saat hover */
     transform: scale(1.1); /* Efek memperbesar */
 }
 
@@ -213,11 +211,11 @@
 }
 .product-item {
     cursor: pointer;
-    border: 1px solid #ddd;
     padding: 10px;
     margin: 10px;
-    transition: box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.2s ease-in-out;
 }
 .product-item:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }

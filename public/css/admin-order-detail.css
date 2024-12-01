@@ -1,18 +1,18 @@
 /* Container Styling */
 .container {
-    background-color: #1b1b1b;
-    color: #ffffff;
+    background-color: #ffffff; /* Latar belakang putih */
+    color: #1b1b1b; /* Teks gelap */
     padding: 20px;
     border-radius: 10px;
     max-width: 800px;
     margin: 30px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow lembut */
 }
 
 /* Heading */
 .container h2,
 .container h3 {
-    color: #ffa31a;
+    color: #1b1b1b; /* Teks gelap */
     text-align: center;
     margin-bottom: 20px;
 }
@@ -22,11 +22,12 @@
 .payment-info p {
     margin: 10px 0;
     font-size: 14px;
+    color: #4f4f4f; /* Abu-abu sedang */
 }
 
 .order-info strong,
 .payment-info strong {
-    color: #ffa31a;
+    color: #1b1b1b; /* Teks lebih gelap untuk penekanan */
 }
 
 /* Product List */
@@ -39,32 +40,33 @@
 
 .product-list th,
 .product-list td {
-    border: 1px solid #808080;
+    border: 1px solid #e0e0e0; /* Border abu terang */
     text-align: left;
     padding: 10px;
     font-size: 14px;
 }
 
 .product-list th {
-    background-color: #ffa31a;
-    color: #000000;
+    background-color: #f0f0f0; /* Latar abu terang */
+    color: #1b1b1b; /* Teks gelap */
 }
 
 .product-list td {
-    background-color: #1b1b1b;
+    background-color: #f9f9f9; /* Latar sangat terang */
 }
 
+/* Total Price */
 .total-price {
     text-align: right;
     font-size: 16px;
-    color: #ffa31a;
+    color: #1b1b1b; /* Teks gelap */
     margin-top: 10px;
     font-weight: bold;
 }
 
 /* Payment Info */
 .payment-proof img {
-    border: 2px solid #808080;
+    border: 2px solid #e0e0e0; /* Border abu terang */
     border-radius: 5px;
     margin-top: 10px;
 }
@@ -76,17 +78,17 @@
 }
 
 .status-update select {
-    background-color: #000000;
-    color: #ffffff;
-    border: 1px solid #808080;
+    background-color: #ffffff; /* Latar belakang putih */
+    color: #1b1b1b; /* Teks gelap */
+    border: 1px solid #e0e0e0; /* Border abu terang */
     padding: 8px 10px;
     border-radius: 5px;
     margin-right: 10px;
 }
 
 .status-update .btn-save {
-    background-color: #ffa31a;
-    color: #000000;
+    background-color: #1b1b1b; /* Tombol gelap */
+    color: #ffffff; /* Teks putih */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -95,6 +97,6 @@
 }
 
 .status-update .btn-save:hover {
-    background-color: #808080;
-    color: #ffffff;
+    background-color: #4f4f4f; /* Hover abu gelap */
+    color: #ffffff; /* Teks tetap putih */
 }
